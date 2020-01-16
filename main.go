@@ -13,11 +13,11 @@ func incomeOfWeek(incomes [] int) (sum int) {
 
 func compareOfWeekIncome(sum1, sum2, sum3 int) (res string) {
 	max := 0
-	if max <= sum1{
+	if max <= sum1 {
 		max = sum1
-		if max <= sum2{
+		if max <= sum2 {
 			max = sum2
-			if max <= sum3{
+			if max <= sum3 {
 				max = sum3
 				return "3"
 			}
