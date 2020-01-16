@@ -29,3 +29,9 @@ func ExampleCompareOfWeekIncome() {
 	fmt.Println(bestIncomeOfWeek)
 	//Output: 3
 }
+
+func ExampleCompareTheBestDailyMiddleIncome() {
+	bestDailyMiddleincome := compareTheBestDailyMiddleIncome(income1, income2, income3)
+	fmt.Println(bestDailyMiddleincome)
+	//Output: 3
+}
